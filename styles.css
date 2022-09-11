@@ -1,0 +1,61 @@
+
+
+#web-body {
+    background-color: palevioletred;
+  }
+
+  .gallery-item{
+    height:auto;
+    width:auto;
+    max-height:250px;
+    max-width:250px;
+    margin: 10px;
+  }
+
+  .goalkeeper-item-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+  }
+
+  .defender-item-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+  }
+
+  .mid-item-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+  }
+  .fwd-item-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+  }
+
+  .intro-paragraph {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 10px;
+  }
